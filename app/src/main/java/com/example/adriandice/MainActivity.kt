@@ -23,7 +23,6 @@ class MainActivity : ComponentActivity() {
 
             val viewModel = remember { MyViewModel(context) }
 
-
             myApp(viewModel)
         }
     }
